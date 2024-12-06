@@ -7,10 +7,10 @@ char before(char x) {
     } 
     else if (x == 'A') {
         return 'Z'; // ก่อนหน้า 'A' คือ 'Z'
-	}
+    } 
     else {
         return '0';
-	}
+    }
 }
 
 int main(){
